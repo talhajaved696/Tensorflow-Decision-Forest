@@ -3,7 +3,7 @@
 # Reproducing this web app
 To recreate this web app on your own computer, do the following.
 
-### Create conda environment
+### Create python virtual environment
 Firstly, we will create a python environment called *env*
 ```
 virtualenv env
@@ -15,11 +15,6 @@ source ./env/bin/activate
 ### Install prerequisite libraries
 
 Download requirements.txt file
-
-```
-wget https://raw.githubusercontent.com/dataprofessor/ml-auto-app/main/requirements.txt
-
-```
 
 Pip install libraries
 ```
